@@ -88,9 +88,9 @@ class mainWindow(QMainWindow):
         self.ui.avrdudeParams.setText(param)
 
     def load_def_settings_lin(self):
-        fname = "/home/anaconda/Downloads/arduino-1.8.19-linux64/arduino-1.8.19/hardware/tools/avr/bin/avrdude"
+        fname = "/usr/bin/avrdude"
         self.ui.avrdudeEXE.setText(fname)
-        conf = r"/home/anaconda/Downloads/arduino-1.8.19-linux64/arduino-1.8.19/hardware/tools/avr/etc/avrdude.conf"
+        conf = r"/etc/avrdude.conf"
         self.ui.avrdudeConf.setText(conf)
         param = "-v -patmega328p -carduino -P/dev/ttyUSB0 -b57600 -D"
         self.ui.avrdudeParams.setText(param)
