@@ -1,5 +1,7 @@
 # avrflasher
 
+The project was moved to https://gitverse.ru/sozykin/avrflasher
+
 This is a simple program for flashing AVR microcontrollers via USB (arduino bootloader) using avrdude.
 
 # Install
